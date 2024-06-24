@@ -2,17 +2,74 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   margin: 0;
-  padding: 20px;
-  text-align: center;
+  padding: 0;
 }
 
-.container {
-  background-color: #fff;
+header {
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content .time {
+  font-size: 20px;
+}
+
+.header-content .icons img {
+  height: 20px;
+  margin-left: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+.account-summary {
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
 }
 
-h2 {
-  color: #4CAF50;
+.card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.actions {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.action-buttons button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.action-buttons button:last-child {
+  margin-right: 0;
 }
