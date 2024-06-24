@@ -9,7 +9,8 @@ self.addEventListener('install', event => {
         '/icon.png',
         '/signal.png',
         '/wifi.png',
-        '/battery.png'
+        '/battery.png',
+        '/promotion.png'
       ]);
     })
   );
