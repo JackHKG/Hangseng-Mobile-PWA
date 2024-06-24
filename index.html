@@ -11,15 +11,37 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Welcome to My PWA!</h1>
-  <div class="container">
-    <h2>Account Summary</h2>
-    <p>Account: 368-547550-888</p>
-    <p>Balance: HK$ 42.82</p>
-    <h2>Credit Card</h2>
-    <p>Card: 5408-0620-0567-9862</p>
-    <p>Balance: HK$ 66,439.32 DR</p>
-  </div>
+  <header>
+    <div class="header-content">
+      <div class="time">12:01</div>
+      <div class="icons">
+        <img src="signal.png" alt="Signal">
+        <img src="wifi.png" alt="WiFi">
+        <img src="battery.png" alt="Battery">
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="account-summary">
+      <h2>Account Summary</h2>
+      <div class="card">
+        <p><strong>Account:</strong> 368-547550-888</p>
+        <p><strong>Balance:</strong> HK$ 42.82</p>
+      </div>
+      <div class="card">
+        <p><strong>Card:</strong> 5408-0620-0567-9862</p>
+        <p><strong>Balance:</strong> HK$ 66,439.32 DR</p>
+      </div>
+    </section>
+    <section class="actions">
+      <h3>Common Actions</h3>
+      <div class="action-buttons">
+        <button>View e-Statement</button>
+        <button>Mobile Withdraw</button>
+        <button>Pay Bill</button>
+      </div>
+    </section>
+  </main>
   <script src="sw.js"></script>
 </body>
 </html>
