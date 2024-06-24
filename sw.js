@@ -6,7 +6,10 @@ self.addEventListener('install', event => {
         '/index.html',
         '/manifest.json',
         '/styles.css',
-        '/icon.png'
+        '/icon.png',
+        '/signal.png',
+        '/wifi.png',
+        '/battery.png'
       ]);
     })
   );
