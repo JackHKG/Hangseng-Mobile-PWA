@@ -105,3 +105,22 @@ main {
   cursor: pointer;
   padding: 10px;
 }
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    z-index: 0; /* Ensure it stays behind other content */
+}
+
