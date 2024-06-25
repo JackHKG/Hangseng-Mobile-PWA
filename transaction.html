@@ -16,10 +16,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=0.332, maximum-scale=0.332, minimum-scale=0.332, user-scalable=no">
   <meta name="viewport" content="width=device-width, initial-scale=0.332">
   <meta name="viewport" content="width=device-width, initial-scale=0.332">
-    
+     <style>
+        .container {
+            padding-top: env(safe-area-inset-top); /* For newer iPhones with a notch */
+            padding-top: 20px; /* Adjust this value as needed */
+        }
+    </style>
 
 <header class="header">
-    <div class="header-content">
+    <div class="container">
         <div class="header-nav">
       <img style="position: fixed; top:0; left:0;" src="TransactionTop.PNG" usemap="#backtohome" alt="Clickable Image"/>
     </div>
