@@ -124,3 +124,10 @@ footer {
     z-index: 0; /* Ensure it stays behind other content */
 }
 
+body {
+    margin-top: env(safe-area-inset-top); /* For newer iPhones with a notch */
+    padding-top: 20px; /* Adjust this value as needed */
+}
+
+
+
